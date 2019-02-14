@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="quests">
+        <item>Solar panels</item>
+        <item>Thermal panels</item>
+        <item>Fridge</item>
+        
+    </string-array>
+
+    <array name="quests_pics">
+        <item>@drawable/panels1</item>
+        <item>@drawable/panels2</item>
+        <item>@drawable/fridge</item>
+
+    </array>
+</resources>

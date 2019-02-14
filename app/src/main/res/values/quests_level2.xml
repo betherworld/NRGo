@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="quests">
+        <item>Tree</item>
+        <item>Bird house</item>
+        <item>Insects house</item>
+        <item>Train</item>
+        
+    </string-array>
+
+    <array name="quests_pics">
+        <item>@drawable/tree</item>
+        <item>@drawable/bird_house</item>
+        <item>@drawable/insect_house</item>
+        <item>@drawable/train</item>
+
+    </array>
+</resources>

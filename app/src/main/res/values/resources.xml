@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="resources">
+        <item>Electricity</item>
+        <item>Water</item>
+        <item>Waste</item>
+    </string-array>
+
+    <array name="recources_pics">
+        <item>@drawable/electricity</item>
+        <item>@drawable/water</item>
+        <item>@drawable/waste</item>
+    </array>
+</resources>
