@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array
-        name="quests">
+        name="quests_1">
         <item>Lights</item>
         <item>Electronic devices</item>
         <item>Organic waste</item>
@@ -18,7 +18,7 @@
         <item>No heating</item>
     </string-array>
 
-    <array name="quests_pics">
+    <array name="quests_pics_1">
         <item>@drawable/lights</item>
         <item>@drawable/electronic_devices</item>
         <item>@drawable/organic</item>
@@ -36,35 +36,64 @@
     </array>
 
     <string-array
-        name="quests_discriptions">
-        <item>Lights</item>
-        <item>Electronic devices</item>
-        <item>Organic waste</item>
-        <item>Recycle aluminium</item>
-        <item>Recycle glass</item>
-        <item>Recycle paper</item>
-        <item>Recycle batteries</item>
+        name="quests_discriptions_1">
+        <item>Turn off the useless lights and save 60 watt per every hour.</item>
+        <item>Plug out the unused electronic devices and save 0.03 watt per every hour.</item>
+        <item>Put the organic waste in the compost.</item>
+        <item>Put your aluminium waste in the aluminium bin.</item>
+        <item>Put your glass waste in the glass bin.</item>
+        <item>Put your paper waste in the paper bin.</item>
+        <item>Put your old batteries in the batterie bin.</item>
+        <item>Take shorter shower and save 12l of water per minute.</item>
+        <item>Take a shower instead of a bath and save 150 l of water.</item>
+        <item>Close the tap while washing your teeth and save 10l of water per minute.</item>
+        <item>Use your bicycle instead of your car to travel a short distance.</item>
+        <item>Use public transport instead of your car to travel a long distance.</item>
+        <item>Rh</item>
+        <item>Th</item>
+        <!--
+        <item>Regulate the radiators such that the rooms aren&apos;t too hot and save up to 15 kwh</item>
+        <item>Turn off the radiator if the rooms are hot enough and save up to 45 kwh</item>
+        -->
+
+
     </string-array>
 
     <string-array
         name="quests_rewards_types">
-        <item>Lights</item>
-        <item>Electronic devices</item>
-        <item>Organic waste</item>
-        <item>Recycle aluminium</item>
-        <item>Recycle glass</item>
-        <item>Recycle paper</item>
-        <item>Recycle batteries</item>
+        <item>Electricity</item>
+        <item>Electricity</item>
+        <item>Earth</item>
+        <item>Earth</item>
+        <item>Earth</item>
+        <item>Earth</item>
+        <item>Earth</item>
+        <item>Water</item>
+        <item>Water</item>
+        <item>Water</item>
+        <item>Air</item>
+        <item>Air</item>
+        <item>Fire</item>
+        <item>Fire</item>
+
     </string-array>
 
-    <int-array
+    <integer-array
         name="quests_rewards">
-        <item>Lights</item>
-        <item>Electronic devices</item>
-        <item>Organic waste</item>
-        <item>Recycle aluminium</item>
-        <item>Recycle glass</item>
-        <item>Recycle paper</item>
-        <item>Recycle batteries</item>
-    </int-array>
+        <item>3</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>1</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+        <item>5</item>
+    </integer-array>
+
 </resources>

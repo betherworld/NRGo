@@ -20,37 +20,4 @@
         <item>@drawable/ic_launcher_background</item>
         <item>@drawable/ic_launcher_background</item>
     </array>
-
-    <string-array
-        name="quests_discriptions">
-        <item>Lights</item>
-        <item>Electronic devices</item>
-        <item>Organic waste</item>
-        <item>Recycle aluminium</item>
-        <item>Recycle glass</item>
-        <item>Recycle paper</item>
-        <item>Recycle batteries</item>
-    </string-array>
-
-    <string-array
-        name="quests_rewards_types">
-        <item>Lights</item>
-        <item>Electronic devices</item>
-        <item>Organic waste</item>
-        <item>Recycle aluminium</item>
-        <item>Recycle glass</item>
-        <item>Recycle paper</item>
-        <item>Recycle batteries</item>
-    </string-array>
-
-    <int-array
-        name="quests_rewards">
-        <item>Lights</item>
-        <item>Electronic devices</item>
-        <item>Organic waste</item>
-        <item>Recycle aluminium</item>
-        <item>Recycle glass</item>
-        <item>Recycle paper</item>
-        <item>Recycle batteries</item>
-    </int-array>
 </resources>

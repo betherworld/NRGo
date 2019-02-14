@@ -6,6 +6,8 @@ public class User {
     private String name;
     private String email;
     private String password;
+    private int fireCount, dropCount, leafCount, airCount, electricityCount, specialCount;
+
 
     public int getId(){
         return id;
@@ -35,7 +37,55 @@ public class User {
         return password;
     }
 
-    public void setPassword(String password){
-        this.password = password;
+    public void setPassword(String newPassword){
+        this.password = newPassword;
+    }
+
+    public int getFire(){
+        return fireCount;
+    }
+
+    public void setFire(int newFireCount){
+        this.fireCount = newFireCount;
+    }
+
+    public int getDrop(){
+        return dropCount;
+    }
+
+    public void setDrop(int newDropCount){
+        this.dropCount = newDropCount;
+    }
+
+    public int getLeaf(){
+        return leafCount;
+    }
+
+    public void setLeaf(int newLeafCount){
+        this.leafCount = newLeafCount;
+    }
+
+    public int getAir(){
+        return airCount;
+    }
+
+    public void setAir(int newAirCount){
+        this.airCount = newAirCount;
+    }
+
+    public int getElectricity(){
+        return electricityCount;
+    }
+
+    public void setElectricity(int newElectricityCount){
+        this.electricityCount = newElectricityCount;
+    }
+
+    public int getSpecial(){
+        return specialCount;
+    }
+
+    public void setSpecial(int newSpecialCount){
+        this.specialCount = newSpecialCount;
     }
 }

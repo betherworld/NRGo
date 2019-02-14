@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array
-        name="quests">
+        name="quests_3">
         <item>Solar panels</item>
         <item>Thermal panels</item>
         <item>Fridge</item>
         
     </string-array>
 
-    <array name="quests_pics">
+    <string-array name="quests_pics_3">
         <item>@drawable/panels1</item>
         <item>@drawable/panels2</item>
         <item>@drawable/fridge</item>
+    </string-array>
 
-    </array>
+    <string-array
+        name="quests_rewards_types_3">
+        <item>Electricity</item>
+        <item>Fire</item>
+        <item>Electricity</item>
+        
+
+    </string-array>
+
+    <integer-array
+        name="quests_rewards_3">
+        <item>5000</item>
+        <item>5000</item>
+        <item>800</item>
+           
+
+    </integer-array>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array
-        name="quests">
+        name="quests_2">
         <item>Tree</item>
         <item>Bird house</item>
         <item>Insects house</item>
@@ -9,11 +9,29 @@
         
     </string-array>
 
-    <array name="quests_pics">
+    <string-array name="quests_pics_2">
         <item>@drawable/tree</item>
         <item>@drawable/bird_house</item>
         <item>@drawable/insect_house</item>
         <item>@drawable/train</item>
 
-    </array>
+    </string-array>
+
+    <string-array
+        name="quests_rewards_types_2">
+        <item>Air</item>
+        <item>Earth</item>
+        <item>Earth</item>
+        <item>Air</item>
+    </string-array>
+
+    <integer-array
+        name="quests_rewards_2">
+        <item>20</item>
+        <item>20</item>
+        <item>20</item>
+        <item>70</item>
+   
+
+    </integer-array>
 </resources>

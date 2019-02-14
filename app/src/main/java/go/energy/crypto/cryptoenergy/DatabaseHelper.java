@@ -169,6 +169,7 @@ public class DatabaseHelper  extends SQLiteOpenHelper{
 
         String colName = mapElemToCol.get(element.getName());
         if(!colName.isEmpty()) {
+            //curCoins =
             values.put(colName, element.getCoins());
 
             db.insert(TABLE_USER, null, values);
