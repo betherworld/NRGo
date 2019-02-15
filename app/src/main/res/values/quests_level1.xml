@@ -18,6 +18,25 @@
         <item>No heating</item>
     </string-array>
 
+    <!--
+    <array name="quests_pics_1">
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/batteries</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bicycle</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+        <item>@drawable/bath</item>
+    </array>
+    -->
+
     <array name="quests_pics_1">
         <item>@drawable/lights</item>
         <item>@drawable/electronic_devices</item>
@@ -35,6 +54,7 @@
         <item>@drawable/heating</item>
     </array>
 
+
     <string-array
         name="quests_discriptions_1">
         <item>Turn off the useless lights and save 60 watt per every hour.</item>
@@ -49,8 +69,8 @@
         <item>Close the tap while washing your teeth and save 10l of water per minute.</item>
         <item>Use your bicycle instead of your car to travel a short distance.</item>
         <item>Use public transport instead of your car to travel a long distance.</item>
-        <item>Rh</item>
-        <item>Th</item>
+        <item>Regulate the radiators such that the rooms arent too hot and save up to 15 kwh</item>
+        <item>Turn off the radiator if the rooms are hot enough and save up to 45 kwh</item>
         <!--
         <item>Regulate the radiators such that the rooms aren&apos;t too hot and save up to 15 kwh</item>
         <item>Turn off the radiator if the rooms are hot enough and save up to 45 kwh</item>
@@ -59,24 +79,24 @@
 
     </string-array>
 
-    <string-array
+    <array
         name="quests_rewards_types">
-        <item>Electricity</item>
-        <item>Electricity</item>
-        <item>Earth</item>
-        <item>Earth</item>
-        <item>Earth</item>
-        <item>Earth</item>
-        <item>Earth</item>
-        <item>Water</item>
-        <item>Water</item>
-        <item>Water</item>
-        <item>Air</item>
-        <item>Air</item>
-        <item>Fire</item>
-        <item>Fire</item>
+        <item>@drawable/energie</item>
+        <item>@drawable/energie</item>
+        <item>@drawable/leaf</item>
+        <item>@drawable/leaf</item>
+        <item>@drawable/leaf</item>
+        <item>@drawable/leaf</item>
+        <item>@drawable/leaf</item>
+        <item>@drawable/drop</item>
+        <item>@drawable/drop</item>
+        <item>@drawable/drop</item>
+        <item>@drawable/cloud</item>
+        <item>@drawable/cloud</item>
+        <item>@drawable/fire</item>
+        <item>@drawable/fire</item>
 
-    </string-array>
+    </array>
 
     <integer-array
         name="quests_rewards">

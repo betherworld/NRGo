@@ -4,6 +4,7 @@
     <uses-feature android:name="android.hardware.camera"
         android:required="true" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/icon"
@@ -24,6 +25,8 @@
         <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
         <activity android:name=".RegisterActivity" android:screenOrientation="portrait"/>
         <activity android:name=".VerificationActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ResourcesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ResourceItemActivity" android:screenOrientation="portrait"/>
     </application>
 
 

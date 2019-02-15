@@ -35,6 +35,7 @@ public class QuestAdapter extends ArrayAdapter<Quest> {
             holder = new QuestHolder();
             holder.imgIcon = (ImageView)row.findViewById(R.id.imgIcon);
             holder.txtTitle = (TextView)row.findViewById(R.id.txtTitle);
+            holder.imgElementType = (ImageView)row.findViewById(R.id.imgElementType);
 
             row.setTag(holder);
         }
@@ -46,6 +47,8 @@ public class QuestAdapter extends ArrayAdapter<Quest> {
         Quest quest = data[position];
         holder.txtTitle.setText(quest.title);
         holder.imgIcon.setImageResource(quest.icon);
+        if(quest.typeId > 0)
+            holder.imgElementType.setImageResource(quest.typeId);
 
         return row;
     }
@@ -54,5 +57,6 @@ public class QuestAdapter extends ArrayAdapter<Quest> {
     {
         ImageView imgIcon;
         TextView txtTitle;
+        ImageView imgElementType;
     }
 }

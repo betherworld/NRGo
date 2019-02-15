@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="drop_pictures">
+        <item>@drawable/drop</item>
+        <item>@drawable/drop1</item>
+        <item>@drawable/drop1_2</item>
+    </array>
+    <array name="leaf_pictures">
+        <item>@drawable/leaf</item>
+        <item>@drawable/leaf1_1</item>
+        <item>@drawable/leaf1_2</item>
+        <item>@drawable/leaf1_3</item>
+        <item>@drawable/leaf2_1</item>
+        <item>@drawable/leaf2_2</item>
+    </array>
+    <array name="fire_pictures">
+        <item>@drawable/fire</item>
+        <item>@drawable/fire1</item>
+        <item>@drawable/fire1_2</item>
+        <item>@drawable/fire1_3</item>
+        <item>@drawable/fire1_4</item>
+    </array>
+    <array name="cloud_pictures">
+        <item>@drawable/cloud</item>
+        <item>@drawable/cloud1_1</item>
+        <item>@drawable/cloud1_2</item>
+        <item>@drawable/cloud1_3</item>
+        <item>@drawable/cloud1_4</item>
+    </array>
+    <array name="energie_pictures">
+        <item>@drawable/energie</item>
+        <item>@drawable/energie1_2</item>
+        <item>@drawable/energie1</item>
+        <item>@drawable/energie1_3</item>
+    </array>
+    <array name="special_pictures">
+        <item>@drawable/specialleafdrop</item>
+        <item>@drawable/specialleaf</item>
+    </array>
+    <array name="elemental_pictures">
+        <item>@array/drop_pictures</item>
+        <item>@array/cloud_pictures</item>
+        <item>@array/energie_pictures</item>
+        <item>@array/fire_pictures</item>
+        <item>@array/leaf_pictures</item>
+        <item>@array/special_pictures</item>
+    </array>
+    <string-array name="elemental_ids">
+        <item>Water</item>
+        <item>Air</item>
+        <item>Electricity</item>
+        <item>Fire</item>
+        <item>Earth</item>
+        <item>Special</item>
+    </string-array>
+    <string-array
+        name="elemental_description">
+        <item>Water is driving force of all nature, it makes 71 percent of Earth’s surface.</item>
+        <item>Air helps moderate temperatures so that its surface isn’t too hot or too cold to support life.</item>
+        <item>Electricity is one of the greatest human invention and has brought profound changes to the way we live today.</item>
+        <item>Thousands of years of natural fires achieved a dynamic balance in forest ecosystems.</item>
+        <item>Earth is of vital importance for humanity as it gives us a place to survive, to thrive and develop.</item>
+        <item>The combination of four elements brings balance to the world.</item>
+    </string-array>
+</resources>

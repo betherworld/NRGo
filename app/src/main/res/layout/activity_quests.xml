@@ -10,10 +10,12 @@
         android:id="@+id/simpleListView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:divider="#f00"
         android:dividerHeight="3dp"
         android:drawSelectorOnTop="false"
         android:scrollbars="vertical">
     </ListView>
+
+    <!--android:divider="#f00"
+-->
 
 </android.support.constraint.ConstraintLayout>

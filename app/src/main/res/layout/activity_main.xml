@@ -2,46 +2,10 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_fire_back"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:indeterminate="false"
-        android:max="100"
-        android:progress="100"
-        android:progressDrawable="@drawable/circle_progress_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
-        app:layout_constraintHorizontal_bias="0.082"
-        android:src = "@drawable/drop"/>
-
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_fire_front"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:max="100"
-        android:rotation="-90"
-        android:indeterminate="false"
-        android:progressDrawable="@drawable/circle_progress_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
-        app:layout_constraintHorizontal_bias="0.082"
-        android:src = "@drawable/drop"/>
-
     <ImageView
         android:id="@+id/img_fire"
         android:layout_width="90dp"
@@ -54,41 +18,20 @@
         app:layout_constraintHorizontal_bias="0.112"
         android:src="@drawable/fire" />
 
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_drop_back"
-        style="?android:attr/progressBarStyleHorizontal"
+    <go.energy.crypto.cryptoenergy.CustomArcProgress
+        android:id="@+id/circle_progress_bar_fire"
+        android:layout_marginTop="15dp"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:indeterminate="false"
-        android:max="100"
-        android:progress="100"
-        android:progressDrawable="@drawable/circle_progress_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
-        app:layout_constraintHorizontal_bias="0.492"
-        android:src = "@drawable/drop"/>
-
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_drop_front"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:max="100"
-        android:rotation="-90"
-        android:indeterminate="false"
-        android:progressDrawable="@drawable/circle_progress_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
-        app:layout_constraintHorizontal_bias="0.492"
-        android:src = "@drawable/drop"/>
+        custom:arc_progress="55"
+        custom:arc_finished_color="#99ccff"
+        custom:arc_text_size="0dp"
+        custom:arc_suffix_text_size="0dp"
+        custom:arc_angle="300"
+        app:layout_constraintBottom_toBottomOf="@id/img_fire"
+        app:layout_constraintLeft_toLeftOf="@id/img_fire"
+        app:layout_constraintRight_toRightOf="@id/img_fire"
+        app:layout_constraintTop_toTopOf="@id/img_fire"/>
 
     <ImageView
         android:id="@+id/img_drop"
@@ -98,45 +41,24 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
+        app:layout_constraintVertical_bias="0.232"
         app:layout_constraintHorizontal_bias="0.492"
         android:src="@drawable/drop"/>
 
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_leaf_back"
-        style="?android:attr/progressBarStyleHorizontal"
+    <go.energy.crypto.cryptoenergy.CustomArcProgress
+        android:id="@+id/circle_progress_bar_drop"
+        android:layout_marginTop="15dp"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:indeterminate="false"
-        android:max="100"
-        android:progress="100"
-        android:progressDrawable="@drawable/circle_progress_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
-        app:layout_constraintHorizontal_bias="0.899"
-        android:src = "@drawable/drop"/>
-
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_leaf_front"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:max="100"
-        android:rotation="-90"
-        android:indeterminate="false"
-        android:progressDrawable="@drawable/circle_progress_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.247"
-        app:layout_constraintHorizontal_bias="0.899"
-        android:src = "@drawable/drop"/>
+        custom:arc_progress="55"
+        custom:arc_finished_color="#99ccff"
+        custom:arc_text_size="0dp"
+        custom:arc_suffix_text_size="0dp"
+        custom:arc_angle="300"
+        app:layout_constraintBottom_toBottomOf="@id/img_drop"
+        app:layout_constraintLeft_toLeftOf="@id/img_drop"
+        app:layout_constraintRight_toRightOf="@id/img_drop"
+        app:layout_constraintTop_toTopOf="@id/img_drop"/>
 
     <ImageView
         android:id="@+id/img_leaf"
@@ -147,45 +69,23 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.257"
+        app:layout_constraintVertical_bias="0.232"
         app:layout_constraintHorizontal_bias="0.859"/>
 
-
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_air_back"
-        style="?android:attr/progressBarStyleHorizontal"
+    <go.energy.crypto.cryptoenergy.CustomArcProgress
+        android:id="@+id/circle_progress_bar_leaf"
+        android:layout_marginTop="15dp"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:indeterminate="false"
-        android:max="100"
-        android:progress="100"
-        android:progressDrawable="@drawable/circle_progress_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478"
-        app:layout_constraintHorizontal_bias="0.299"
-        android:src = "@drawable/drop"/>
-
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_air_front"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:max="100"
-        android:rotation="-90"
-        android:indeterminate="false"
-        android:progressDrawable="@drawable/circle_progress_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.478"
-        app:layout_constraintHorizontal_bias="0.299"
-        android:src = "@drawable/drop"/>
+        custom:arc_progress="55"
+        custom:arc_finished_color="#99ccff"
+        custom:arc_text_size="0dp"
+        custom:arc_suffix_text_size="0dp"
+        custom:arc_angle="300"
+        app:layout_constraintBottom_toBottomOf="@id/img_leaf"
+        app:layout_constraintLeft_toLeftOf="@id/img_leaf"
+        app:layout_constraintRight_toRightOf="@id/img_leaf"
+        app:layout_constraintTop_toTopOf="@id/img_leaf"/>
 
     <ImageView
         android:id="@+id/img_air"
@@ -199,41 +99,20 @@
         app:layout_constraintHorizontal_bias="0.314"
         android:src="@drawable/cloud" />
 
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_electricity_back"
-        style="?android:attr/progressBarStyleHorizontal"
+    <go.energy.crypto.cryptoenergy.CustomArcProgress
+        android:id="@+id/circle_progress_bar_air"
+        android:layout_marginTop="15dp"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:indeterminate="false"
-        android:max="100"
-        android:progress="100"
-        android:progressDrawable="@drawable/circle_progress_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486"
-        app:layout_constraintHorizontal_bias="0.725"
-        android:src = "@drawable/drop"/>
-
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_electricity_front"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:max="100"
-        android:rotation="-90"
-        android:indeterminate="false"
-        android:progressDrawable="@drawable/circle_progress_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486"
-        app:layout_constraintHorizontal_bias="0.725"
-        android:src = "@drawable/drop"/>
+        custom:arc_progress="55"
+        custom:arc_finished_color="#99ccff"
+        custom:arc_text_size="0dp"
+        custom:arc_suffix_text_size="0dp"
+        custom:arc_angle="300"
+        app:layout_constraintBottom_toBottomOf="@id/img_air"
+        app:layout_constraintLeft_toLeftOf="@id/img_air"
+        app:layout_constraintRight_toRightOf="@id/img_air"
+        app:layout_constraintTop_toTopOf="@id/img_air"/>
 
     <ImageView
         android:id="@+id/img_electricity"
@@ -243,45 +122,24 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.492"
+        app:layout_constraintVertical_bias="0.478"
         app:layout_constraintHorizontal_bias="0.701"
         android:src="@drawable/energie" />
 
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_special_back"
-        style="?android:attr/progressBarStyleHorizontal"
+    <go.energy.crypto.cryptoenergy.CustomArcProgress
+        android:id="@+id/circle_progress_bar_electricity"
+        android:layout_marginTop="10dp"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:indeterminate="false"
-        android:max="100"
-        android:progress="100"
-        android:progressDrawable="@drawable/circle_progress_background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintVertical_bias="0.714"
-        android:src = "@drawable/drop"/>
-
-    <ProgressBar
-        android:id="@+id/circle_progress_bar_special_front"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_centerInParent="true"
-        android:max="100"
-        android:rotation="-90"
-        android:indeterminate="false"
-        android:progressDrawable="@drawable/circle_progress_foreground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714"
-        android:src = "@drawable/drop"/>
+        custom:arc_progress="55"
+        custom:arc_finished_color="#99ccff"
+        custom:arc_text_size="0dp"
+        custom:arc_suffix_text_size="0dp"
+        custom:arc_angle="300"
+        app:layout_constraintBottom_toBottomOf="@id/img_electricity"
+        app:layout_constraintLeft_toLeftOf="@id/img_electricity"
+        app:layout_constraintRight_toRightOf="@id/img_electricity"
+        app:layout_constraintTop_toTopOf="@id/img_electricity"/>
 
 
     <ImageView
@@ -295,6 +153,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.714"
         android:src="@drawable/specialleafdrop" />
+
+    <go.energy.crypto.cryptoenergy.CustomArcProgress
+        android:id="@+id/circle_progress_bar_special"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        custom:arc_progress="55"
+        custom:arc_finished_color="#99ccff"
+        custom:arc_text_size="0dp"
+        custom:arc_suffix_text_size="0dp"
+        custom:arc_angle="300"
+        app:layout_constraintBottom_toBottomOf="@id/img_special"
+        app:layout_constraintLeft_toLeftOf="@id/img_special"
+        app:layout_constraintRight_toRightOf="@id/img_special"
+        app:layout_constraintTop_toTopOf="@id/img_special"/>
 
 
     <com.daimajia.numberprogressbar.NumberProgressBar

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="elements">
+        <item>@drawable/fire</item>
+        <item>@drawable/drop</item>
+        <item>@drawable/leaf</item>
+        <item>@drawable/cloud</item>
+        <item>@drawable/energie</item>
+        <item>@drawable/specialleafdrop</item>
+    </array>
+</resources>
