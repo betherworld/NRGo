@@ -48,5 +48,5 @@ In the same way as trading the Elements, you also can buy them. That means that 
 
 ## Resources for hackathon
 
-Presentation: see NRGo-Presentation.pdf in the repository
+Presentation: see NRGo-Presentation.pdf in the repository <br/>
 Video: <https://youtu.be/uVdYFXUtmbE>
