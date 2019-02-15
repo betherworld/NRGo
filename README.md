@@ -23,11 +23,13 @@ The first thing you will be asked to do as you download the app is to answer a s
 
 #### Completing quests
 The second way of getting Elements is to completing some quests that are provided in the app. These quests are ordered in three levels (easy, middle and hard) and will give you more or less Elements depending on the level.
+
 | Level | Number of Elements |
 | ------ | ------ |
 | 1 | 1 to 10 |
 | 2 | 11 to 100 |
 | 3 | 101 to infinity |
+
 - The **easy quests** could be very simple task such as "turn off the unused lights in your house". They are here to get you into the game, to get some Elements quite quickly and they work in a educational way as well (they should tell or remind you that turning off the lights is something good for the environment). The easy quests are so simple that they don't even need to be proven, that is also why they don't give lots of points.
 - The **middle quests** are either more difficult to realise or have a greater impact on the environment, that is the reason they give more Elements. An exeample could be "plant a tree in your neighborhood" or "use the train instead of the plane to go in an other country". Those quests have more weight in the game and must therefore be proven by sending a picture of your accomplishment.
 - The **hard quests** are hard to realise but have also a big impact on your footprint. Therefore, you will receive much more Elements than the two others. Those quests could be "install solar (or thermal) panels" and must of course be proven.
