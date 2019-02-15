@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
 
         CustomArcProgress progressBar5 = (CustomArcProgress) findViewById(R.id.circle_progress_bar_special);
         progressBar5.setProgress(progress5);
-        progressBar5.setProgress(element.getSpecialProgress());
+        //progressBar5.setProgress(element.getSpecialProgress());
     }
 
     @Override

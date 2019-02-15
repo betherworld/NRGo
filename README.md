@@ -18,9 +18,6 @@ In order to involve as many people as possible, we invent the concept of competi
 
 ### Collecting Elements by...
 
-#### Answering the baseline survey
-The first thing you will be asked to do as you download the app is to answer a survey which will be used as a baseline to your footprint. It means that a algorithm will calculate your actual ecological footprint based on your answer to several questions and the app will use that as a first baseline.
-
 #### Completing quests
 The second way of getting Elements is to completing some quests that are provided in the app. These quests are ordered in three levels (easy, middle and hard) and will give you more or less Elements depending on the level.
 
@@ -48,3 +45,8 @@ As the Elements are unique, it makes sense to trade them. It is thus possible to
 
 #### Buying them
 In the same way as trading the Elements, you also can buy them. That means that some Elements will only be accessible if you buy them with CHF. Those Elements will be daily released and the whole thing will work as a auction system. All the money that we get by selling Elements will be reinvest in local and sustainbable project. Buying Elements could therefore makes you more sustainable, what would makes you getting twice as many Elements.
+
+## Resources for hackathon
+
+Presentation: see NRGo-Presentation.pdf in the repository
+Video: <https://youtu.be/uVdYFXUtmbE>
